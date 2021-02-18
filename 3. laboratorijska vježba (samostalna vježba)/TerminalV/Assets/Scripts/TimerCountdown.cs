@@ -10,7 +10,7 @@ public class TimerCountdown : MonoBehaviour
     public static int secondsLeft = 1200;
     public bool takingAway = false;
     int minutesLeft;
-    public MyDoorController door;
+    public DoorController door;
 
     // Start is called before the first frame update
     void Start()

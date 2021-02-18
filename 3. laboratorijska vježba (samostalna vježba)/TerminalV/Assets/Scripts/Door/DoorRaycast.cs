@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class DoorRaycast : MonoBehaviour
 {
-    [SerializeField] private int rayLength = 5;
+    [SerializeField] private float rayLength = 1.0f;
     [SerializeField] private LayerMask layerMaskInteract;
     [SerializeField] private string excludelayerName = null;
 
-    private MyDoorController rayCastedObject;
+    private DoorController rayCastedObject;
 
     [SerializeField] private KeyCode openDoorKey = KeyCode.Mouse0;
     [SerializeField] private Image crosshair = null;
@@ -30,7 +30,7 @@ public class DoorRaycast : MonoBehaviour
             {
                 if (!doOnce)
                 {
-                    rayCastedObject = hit.collider.gameObject.GetComponent<MyDoorController>();
+                    rayCastedObject = hit.collider.gameObject.GetComponent<DoorController>();
                     CrosshairChange(true);
 
                 }

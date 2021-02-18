@@ -80,7 +80,7 @@ public class PickUpObject : MonoBehaviour
 				{
 					Debug.Log("Key collected");
 					Destroy(hit.collider.gameObject);
-					Game.keysCollected += 1;
+					CollectedKeysUI.keysCollected += 1;
 				}
 			}
 		}
@@ -107,11 +107,11 @@ public class PickUpObject : MonoBehaviour
 	{
 		if (Input.GetKey(KeyCode.LeftArrow))
 		{
-			carriedObject.transform.Rotate(0.0f, 100 * Time.deltaTime, 0.0f);
+			carriedObject.transform.Rotate(0.0f, 0.0f, 100 * Time.deltaTime);
 		}
 		if (Input.GetKey(KeyCode.RightArrow))
 		{
-			carriedObject.transform.Rotate(0.0f, -100 * Time.deltaTime, 0.0f);
+			carriedObject.transform.Rotate(0.0f, 0.0f, -100 * Time.deltaTime);
 		}
 		if (Input.GetKey(KeyCode.DownArrow))
 		{

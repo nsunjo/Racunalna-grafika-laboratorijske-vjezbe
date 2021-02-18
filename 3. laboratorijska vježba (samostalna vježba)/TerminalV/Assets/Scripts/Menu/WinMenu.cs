@@ -17,7 +17,7 @@ public class WinMenu : MonoBehaviour
 
     private void Update()
     {
-        if (Game.keysCollected == 5)
+        if (CollectedKeysUI.keysCollected == 5)
         {
             Pause();
         }
