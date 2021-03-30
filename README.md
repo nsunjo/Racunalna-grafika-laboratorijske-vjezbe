@@ -9,7 +9,7 @@ Particle system
 ## 3. laboratorijska vježba - Terminal V
 Terminal V is a computer game created in game engine Unity. The game is designed as a room escape game in which the goal is to solve several puzzles and collect five keys within twenty minutes. Each puzzle is solved differently than the others, the solution can reveal the location of the key or password to unlock the door. The keys are located on or below many of the interactive objects available in the game. To successfully complete the game, you need to solve all puzzles, unlock all doors and collect all keys.
 
-[Documentation](https://github.com/nsunjo/Racunalna-grafika-laboratorijske-vjezbe/blob/main/3.%20laboratorijska%20vje%C5%BEba%20-%20dokumentacija.pdf)
+* [Project documentation](https://github.com/nsunjo/Racunalna-grafika-laboratorijske-vjezbe/blob/main/3.%20laboratorijska%20vje%C5%BEba%20-%20dokumentacija.pdf)
 
 ### Instalation
 
